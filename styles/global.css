@@ -1,3 +1,95 @@
+/*!
+  * Notion powered
+*/
+
+@font-face {
+	font-family: MADE Evolve Sans;
+	src: url(../public/fonts/made_evolve_sans.woff);
+	font-style: normal;
+	font-weight: normal;
+  }
+  
+@font-face {
+	font-family: MADE Evolve Sans EVO;
+	src: url(../public/fonts/made_evolve_sans_EVO.woff);
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: MADE Evolve Sans Bold;
+	src: url(../public/fonts/made_evolve_sans_bold.woff);
+	font-style: normal;
+	font-weight: normal;
+  }
+  
+@font-face {
+	font-family: MADE Evolve Sans Bold EVO;
+	src: url(../public/fonts/made_evolve_sans_bold_EVO.woff);
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: MADE Evolve Sans Light;
+	src: url(../public/fonts/made_evolve_sans_light.woff);
+	font-style: normal;
+	font-weight: normal;
+  }
+  
+@font-face {
+	font-family: MADE Evolve Sans Light EVO;
+	src: url(../public/fonts/made_evolve_sans_light_EVO.woff);
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: MADE Evolve Sans Thin;
+	src: url(../public/fonts/made_evolve_sans_thin.woff);
+	font-style: normal;
+	font-weight: normal;
+  }
+  
+@font-face {
+	font-family: MADE Evolve Sans Thin EVO;
+	src: url(../public/fonts/made_evolve_sans_thin_EVO.woff);
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: MADE Evolve Medium Sans;
+	src: url(../public/fonts/made_evolve_sans_medium.woff);
+	font-style: normal;
+	font-weight: normal;
+  }
+  
+@font-face {
+	font-family: MADE Evolve Sans Medium EVO;
+	src: url(../public/fonts/made_evolve_sans_medium_EVO.woff);
+	font-style: normal;
+	font-weight: normal;
+}
+
+:root {
+  --color-satus: #CEFF00;
+  --color-satus-alt: #1a2e44;
+  --bg-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  --bg-transparent: rgba(0, 0, 0, 0.2);
+  --color-code: #596365;
+  --color-amora: #8A4D76;
+  --color-hubb: #00FF43;
+  --color-whitesmoke: #F5F5F5;
+  --color-pomodoro: #ff0000;
+  --color-highlight: #DFFF00;
+  --color-focus: #A7FC00;
+  --notion-font: 'MADE Evolve Sans', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', 'Noto Sans', sans-serif;
+  --notion-font-evo: 'MADE Evolve Sans EVO', 'Roboto Mono', 'Ubuntu Monospace', 'Consolas', monospace;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -7,6 +99,11 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: var(--color-satus);
+  text-decoration: underline;
+}
+
 body,
 html {
   padding: 0;
@@ -14,11 +111,14 @@ html {
 }
 
 body {
-  --notion-font: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-    'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
-    'Droid Sans', 'Helvetica Neue', 'Noto Sans', sans-serif;
   font-family: var(--notion-font);
   overflow-x: hidden;
+}
+
+h1, 
+h2, 
+h3 {
+  font-family: var(--notion-font-evo);
 }
 
 .static-tweet blockquote {
