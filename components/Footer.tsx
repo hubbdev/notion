@@ -4,9 +4,9 @@ import { FaEnvelopeOpenText } from '@react-icons/all-files/fa/FaEnvelopeOpenText
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 import { FaMastodon } from '@react-icons/all-files/fa/FaMastodon'
-import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
+import { FaTwitter } from '@react-icons/all-files/fa6/FaXTwitter'
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
-import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
+import { FaZhihu } from '@react-icons/all-files/fa/FaInstagram'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
 import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
 
@@ -36,7 +36,7 @@ export const FooterImpl: React.FC = () => {
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.copyright}>Copyright {currentYear} {config.author}</div>
+      <div className={styles.copyright}>(c) {currentYear} <strong>{config.author}</strong></div>
 
       <div className={styles.settings}>
         {hasMounted && (
@@ -79,8 +79,8 @@ export const FooterImpl: React.FC = () => {
         {config.zhihu && (
           <a
             className={styles.zhihu}
-            href={`https://zhihu.com/people/${config.zhihu}`}
-            title={`Zhihu @${config.zhihu}`}
+            href={`https://instagram.com/${config.zhihu}`}
+            title={`Instagram @${config.zhihu}`}
             target='_blank'
             rel='noopener noreferrer'
           >
