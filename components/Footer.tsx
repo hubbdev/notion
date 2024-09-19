@@ -61,7 +61,7 @@ export const FooterImpl: React.FC = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaTwitter />
+            <FaXTwitter />
           </a>
         )}
 
@@ -84,7 +84,7 @@ export const FooterImpl: React.FC = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaZhihu />
+            <FaInstagram />
           </a>
         )}
 
