@@ -1,6 +1,6 @@
 {
-  "name": "Next.js Notion Starter Kit",
-  "short_name": "Starter Kit",
+  "name": "Notion powered by Next.js",
+  "short_name": "hubb. Notion",
   "icons": [
     {
       "src": "/favicon.png",
