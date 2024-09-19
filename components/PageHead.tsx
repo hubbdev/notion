@@ -88,6 +88,9 @@ export const PageHead: React.FC<
       <meta property='og:title' content={title} />
       <meta name='twitter:title' content={title} />
       <title>{title}</title>
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/berrycreative/icobcl@main/icobcl-sn/icobcl-sn.css"> 
+        
     </Head>
   )
 }
