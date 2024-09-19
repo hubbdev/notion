@@ -4,7 +4,7 @@ import { FaEnvelopeOpenText } from '@react-icons/all-files/fa/FaEnvelopeOpenText
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 import { FaMastodon } from '@react-icons/all-files/fa/FaMastodon'
-import { FaXTwitter } from '@react-icons/fa6/FaXTwitter'
+import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
 import { FaInstagram } from '@react-icons/all-files/fa/FaInstagram'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
@@ -61,7 +61,7 @@ export const FooterImpl: React.FC = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaXTwitter />
+            <FaTwitter />
           </a>
         )}
 
